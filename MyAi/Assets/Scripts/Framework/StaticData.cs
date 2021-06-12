@@ -4,10 +4,7 @@ using UnityEngine;
 
 public static class StaticData
 {
-    /********
-     * 还没写完
-     * ******/
-    //根据一个float向量的概率随机返回array的一个index
+    //给一个列表，输出一个随机的index
     public static int GetRandomElement(float[] probabilities)
     {
         float sum = 0;
