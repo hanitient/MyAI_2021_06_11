@@ -56,12 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\Dealer.cs" />
-    <Compile Include="Assets\Scripts\CardFactory.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\StaticData.cs" />
     <Compile Include="Assets\Scripts\Types.cs" />
+    <Compile Include="Assets\Scripts\Dealer.cs" />
+    <Compile Include="Assets\Scripts\Framework\StaticData.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Factories\CardFactory.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Factories\GameObjectFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
