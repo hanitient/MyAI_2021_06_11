@@ -15,8 +15,8 @@ public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
         if (Instance == null)
         {
             Instance = this as T;
-            Debug.Log(this.name + "已经创建了相同singleton实例");
             DontDestroyOnLoad(gameObject);
+            Debug.Log(this.name + "已经创建了相同singleton实例");
         }
         else
         {
